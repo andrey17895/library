@@ -205,11 +205,20 @@ private static Singleton instance;
 
 Пример:
 
-![UML class-diagram](/img/uml/UML_class_diagram_hotel-949x683.png?raw=true)
+![UML class-diagram](img/uml/UML_class_diagram_hotel-949x683.png?raw=true)
 
 ## Что такое sequence diagram?
 
+Диаграммы последовательностей показывают, как и в какой последовательности объекты взаимодействуют между собой. 
+Взаимодействие иллюстрирует определенный сценарий.
+
+![UML sequence-diagram](img/uml/sequence_diagram_atm_example-800x1292.png?raw=true)
+
 ## Что такое use-case diagram?
+
+Описывает сценарии взаимодействия пользователей с системой
+
+![UML use-case](img/uml/UML_use_case_example1-750x731.png?raw=true)
 
 ## Что такое ER-diagram?
 
