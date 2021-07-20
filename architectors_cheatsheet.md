@@ -508,3 +508,7 @@ public class UserController extends AbstractController<User, Integer> {
 ![service-descovery](img/architecture/service-discovery.png?raw=true)
 
 ## Что такое Circuit Breaker?
+
+Паттерн **Circuit Breaker** предотвращает попытки приложения выполнить операцию, 
+которая скорее всего завершится неудачно, что позволяет продолжить работу дальше не тратя важные ресурсы, 
+пока известно, что проблема не устранена. Приложение должно быстро принять сбой операции и обработать его.
